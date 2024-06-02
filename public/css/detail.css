@@ -1,0 +1,165 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #9895EA, #F6C5D5);
+}
+
+/* untuk navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.logo {
+    width: 150px;
+    margin-right: 1px;
+}
+
+#logo-name {
+    color: white;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    height: 75vh;
+}
+
+.content-plan, .content-brief {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.content-plan h2, .content-brief h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.content-plan p, .content-brief p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.details div{
+    margin-top: 10px;
+}
+
+.details label {
+    display: block;
+}
+
+.details input, .details textarea {
+    width: 80%;
+}
+
+.content-brief h2 {
+    margin-bottom: 10px;
+}
+
+.actions {
+    margin-top: 15px;
+}
+
+.actions a {
+    margin: 0 10px 0 0;
+    text-decoration: none;
+}
+
+.delete {
+    color: #FC0A0A;
+    font-weight: 600;
+}
+
+.save {
+    color:#9796f0;
+    font-weight: 600;
+}
+
+input, textarea, select {
+    border-color:#9796f0;
+    padding: 5px 1px 5px 5px;
+    border-radius: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.content div{
+    padding-right: 30px;
+}
+
+.button {
+    border: none;
+    background-color: #9796f0;
+    border-radius: 10px;
+}
+
+.button p {
+    padding: 5px 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.delete-btn{
+    background-color: white;
+    border: none;
+    margin-left: 30px;
+}
+
+.delete-btn p {
+    font-family: 'Poppins', sans-serif;
+    color: #FC0A0A;
+    font-weight: 600;
+}
+
+.actions {
+    margin-top: 15px;
+    
+    display: flex; /* Mengatur display menjadi flex */
+    justify-content: space-between; /* Mengatur jarak antara tombol menjadi sejajar */
+    align-items: center; /* Mengatur agar kedua tombol berada pada garis vertikal yang sama */
+}
+
+.actions button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.delete-btn {
+    background-color: white;
+}
+
+.button {
+    background-color: #9796f0;
+    color: white;
+}

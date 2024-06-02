@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+        background-image: linear-gradient(to right, #9895EA, #F6C5D5);
+        font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    margin: 2% 2%;
+    font-weight: 500;
+}
+
+nav .login {
+    padding: 1% 2%;
+    text-decoration: none;
+    color: white;
+    background-color: #9895EA;
+    border-radius: 25px;
+}
+
+.about {
+    padding: 1% 2%;
+    color: white;
+    text-decoration: none;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text{
+    width: 80%;
+    height: 35vh;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.welcome img {
+    width: 15%;
+}
+
+#title {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+}
+
+.description {
+    color: white;
+    font-weight: 600;
+}
+
+.description p {
+    font-weight: 400;
+}
+
+#desc-button {
+    padding: 1% 2%;
+    text-decoration: none;
+    color: white;
+    background-color: #9895EA;
+    border-radius: 25px;
+    font-weight: 400;
+}

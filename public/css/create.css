@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: linear-gradient(to right, #9895EA, #F6C5D5);
+}
+
+.container {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.container header {
+  font-size: 1.3rem;
+  font-weight: 1000;
+}
+.container .form {
+  margin-top: 20px;    
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 15px;
+}
+/* box */
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 30px;
+  width: 100%;
+  outline: none;
+  font-size: 0.8rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #9796f0;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 0.8rem;
+}
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+.buttons {
+  /* position: absolute;
+  bottom: 20px;
+  right: 20px; */
+  margin-top: 20px; /* Add margin to separate from form content */
+  text-align: right; /* Align buttons to the right */
+}
+.cancel-button, .save-button {
+  padding: 10px 20px;
+  margin-left: 5px;
+  background-color: #ffffff;
+  color: #e40303;
+  border: none;
+  border-radius: 5px;
+  /* border: 1px solid #707070; */
+  cursor: pointer;
+  font-weight: bold;
+}
+/* .save-button {
+  background-color: #9796f0;
+  color: white;
+} */
+.save-button {
+  color: #7270e8;
+} 
+.cancel-button:hover, .save-button:hover {
+  background-color: #aaaaaa;
+  color: white;
+}
+.save-button:hover {
+  background-color: #9796f0;
+  color: white;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,155 @@
+:root {
+	--dark-text: #f8fbff;
+	--light-body: #f3f8fe;
+	--light-main: #fdfdfd;
+	--light-second: #c3c2c8;
+	--light-hover: #f0f0f0;
+	--light-text: #151426;
+	--light-btn: #9796f0;
+	--blue: #0000ff;
+	--white: #fff;
+	--shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	--font-family: 'Poppins', sans-serif;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	place-items: center;
+	font-family: var(--font-family);
+	background: linear-gradient(to right, #9796f0, #fbc7d4);
+	overflow: hidden;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+    margin: 0 50px;
+}
+
+nav .left {
+    display: flex;
+    align-items: center;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+	margin-right: 7%;
+}
+
+.logo {
+	width: 100px;
+	margin-right: 1px;
+}
+
+#logout {
+	color: #6760EB;
+	text-decoration: none;
+	margin-right: 20px;
+	font-weight: 600;
+	font-size: 15px;
+	background-color: none;
+}
+
+#logo-name {
+	color: white;
+	font-size: 30px;
+	font-family: "Pacifico", cursive;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#data {
+	background-color: white;
+	width: 40%;
+	border-radius: 20px;
+}
+
+.logout-btn {
+	background-color: transparent;
+	margin-right: 40%;
+}
+
+.logout-form {
+	margin-right: 30%;
+}
+
+button {
+	margin : 2% 50%;
+	border: none;
+}
+
+h1 {
+	color:#9796f0;
+	font-size: 25px;
+}
+
+h3 {
+	font-size: 15px;
+	color: #4A4A4A;
+}
+
+.content {
+	margin: 10px 30px;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.desc, .status-desc {
+	font-size: 13px;
+}
+
+.content div{
+	margin-top: 10px;
+}
+
+.status {
+	display: flex;
+	flex-direction: row;
+}
+
+.status div {
+	margin-right: 30px;
+}
+
+.button {
+	display: flex;
+	margin-left: 25%;
+	margin-top: 10px;
+}
+
+.edit{
+	background-color: #9796f0;
+	padding: 10px;
+	border-radius: 10px;
+	margin-right: 50px;
+}
+
+.edit img, .update img {
+	width: 30px;
+}
+
+.update {
+	background-color: #9796f0;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.status-desc {
+	color: #6760EB;
+}
